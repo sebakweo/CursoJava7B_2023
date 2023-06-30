@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class CategoriaFamiliar {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Ingrese la categoría (a, b o c): ");
+        String categoria = scanner.nextLine();
+
+        String palabra;
+
+        switch (categoria) {
+            case "a":
+                palabra = "hijo";
+                break;
+            case "b":
+                palabra = "padres";
+                break;
+            case "c":
+                palabra = "abuelos";
+                break;
+            default:
+                palabra = "Categoría inválida";
+                break;
+        }
+
+        System.out.println("La palabra correspondiente a la categoría " + categoria + " es: " + palabra);
+    }
+}
