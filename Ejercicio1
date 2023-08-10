@@ -1,4 +1,4 @@
-import Ejercicio 1;
+import java.util.scanner;
 
 public class Ejercicio1 {
     public static void main(String[] args) {
