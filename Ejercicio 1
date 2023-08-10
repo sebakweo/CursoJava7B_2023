@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import Ejercicio 1;
 
 public class EvaluacionesAlumno {
     public static void main(String[] args) {
